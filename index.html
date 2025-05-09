@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>JS Playground 🎉</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>🎮 JavaScript Playground</h1>
+
+  <!-- Event Handling Section -->
+  <section>
+    <h2>🎈 Event Handling</h2>
+    <button id="clickBtn">Click Me!</button>
+    <button id="secretBtn">Hold or Double-Click Me!</button>
+    <p id="hoverText">Hover over me!</p>
+    <p id="keypressOutput">Type something on your keyboard...</p>
+  </section>
+
+  <!-- Interactive Elements -->
+  <section>
+    <h2>🎨 Interactive Elements</h2>
+    <button id="colorChangeBtn">Change My Color</button>
+
+    <!-- Image Gallery -->
+    <div class="gallery">
+      <img src=lofi-room-cityscape-urban-3840x2160-14880.jpg alt="Kitten" id="galleryImage" />
+      <button id="nextImage">Next Image</button>
+    </div>
+
+    <!-- Accordion -->
+    <div class="accordion">
+      <button class="accordion-toggle">Toggle Content</button>
+      <div class="accordion-content">
+        <p>This is hidden content. Surprise! 🎁</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Form Validation -->
+  <section>
+    <h2>📋 Form Validation</h2>
+    <form id="signupForm">
+      <input type="text" id="username" placeholder="Username (required)" required />
+      <input type="email" id="email" placeholder="Email" required />
+      <input type="password" id="password" placeholder="Password (min 8 chars)" required />
+      <button type="submit">Sign Up</button>
+      <p id="formFeedback"></p>
+    </form>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>

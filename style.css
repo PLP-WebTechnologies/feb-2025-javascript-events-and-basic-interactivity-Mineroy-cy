@@ -1,0 +1,36 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 20px;
+  padding: 0;
+  background-color: #f0f4f8;
+  color: #333;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #6c63ff;
+  color: white;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+.gallery img {
+  display: block;
+  width: 200px;
+  height: 200px;
+  margin: 10px 0;
+}
+
+.accordion-content {
+  display: none;
+  background: #e0e0ff;
+  padding: 10px;
+  margin-top: 5px;
+}
